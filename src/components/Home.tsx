@@ -1,5 +1,5 @@
 import { useInView } from "react-intersection-observer";
-import React, { useState, useRef } from "react";
+// import React, { useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import {
   FaUsers,
@@ -20,8 +20,8 @@ import batteryRecyclersImg from "/home/krishna/react-battery1/src/assets/battery
 
 const Home: React.FC = () => {
   const navigate = useNavigate();
-  const [slideIndex, setSlideIndex] = useState(0);
-  const stakeholdersRef = useRef<HTMLDivElement>(null);
+  // const [slideIndex, setSlideIndex] = useState(0);
+  // const stakeholdersRef = useRef<HTMLDivElement>(null);
 
   const [stakeholdersViewRef, stakeholdersInView] = useInView({
     triggerOnce: true,
@@ -210,7 +210,7 @@ const Home: React.FC = () => {
           className={`stakeholders ${
             stakeholdersInView ? "animate-stakeholders" : ""
           }`}
-          style={{ transform: `translateX(-${slideIndex * 33.33}%)` }}
+          // style={{ transform: `translateX(-${slideIndex * 33.33}%)` }}
         >
           {stakeholders.map((stakeholder, index) => (
             <div
