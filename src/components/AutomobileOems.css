@@ -1,0 +1,73 @@
+/* src/components/AutomobileOEMs.css */
+.automobile-oems {
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: fadeIn 1.5s ease-in-out forwards;
+  }
+
+  .automobile-oems::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* margin-top: 74px; */
+    background-image: url("/home/krishna/react-battery1/src/assets/oems.jpg");
+    /* background-repeat: no-repeat; */
+    background-position: right;
+    background-size: cover;
+    opacity: 0.2;
+    z-index: -1;
+  }
+
+  .automobile-oems h1 {
+    color: #007bff;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Roboto Slab', serif;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+
+  .oems-content {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    width: 55%;
+    text-align: left;
+    line-height: 1.6;
+    color: #333;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  
+  .automobile-oems h2 {
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+  }
+  
+  .automobile-oems section {
+    margin-bottom: 30px;
+  }
+  
+  .automobile-oems p {
+    line-height: 1.6;
+    color: #333; /* Dark gray for text */
+  }
+  
+  .automobile-oems strong {
+    font-weight: bold;
+  }
+  
+  .automobile-oems ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .automobile-oems li {
+    margin-bottom: 10px;
+  }

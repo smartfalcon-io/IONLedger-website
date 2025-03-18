@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding-right: 50px;
+}
+
+nav li {
+  margin-left: 1rem;
+  padding: 10px;
+}
+
+/* .hero {
+  background-image: url('/home/krishna/react-battery1/src/assets/background_home.png');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black(255, 255, 255, 0.782);
+  position: relative;
+  padding: 1px;
+}
+
+.hero-content {
+  max-width: 800px;
+  padding: 200px;
+  position: relative;
+  z-index: 2;
+  bottom: 40px;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: Roboto Slab (Serif);
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.roboto-slab {
+  font-family: 'Roboto Slab', serif;
+}
+
+.green-text{
+  color: #4CAF50;
+}
+
+.hero-content button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 100px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-color: #4CAF50;
+}
+
+.hero-content button:hover{
+  color: #4CAF50;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  background-color: rgba(0,0,0,0);
+  border-color: #4CAF50;
+  border: 2px solid;
+} */
+
+.vision {
+  padding: 4rem;
+  text-align: center;
+}
+
+.vision-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.vision-content p {
+  font-size: 1.2rem;
+}
+
+.solutions {
+  padding: 4rem;
+}
+
+.solutions-content h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.solutions-content ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.solutions-content li {
+  width: 30%;
+  margin-bottom: 2rem;
+}
+
+.solutions-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.solutions-content p {
+  font-size: 1.2rem;
+}
+
+.custom-footer {
+  background-color: black;
+  padding: 1px;
+  color: #333;
+  text-align: center;
+  position: relative;
+  width: 98.9%;
+  padding: 10px;
+  
+}
+
+.custom-header {
+  background-color: white; 
+  color: #2196F3; 
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  position: relative;
+  z-index: 100;
+}
+
+.custom-header h1 {
+  font-size: 30px;
+
+}
+
+.custom-header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.custom-header nav li {
+  margin-left: 1rem;
+  font-size: medium;
+}
+
+.custom-header nav a {
+  color: black; 
+  text-decoration: none;
+  font-weight: bold;
+  font-size: smaller;
+}
+
+.custom-header nav a:hover {
+  
+  color: #2196F3; 
+  text-shadow: 0 0 5px rgb(237, 229, 229), 0 0 10px #2196F3; 
+}
+
