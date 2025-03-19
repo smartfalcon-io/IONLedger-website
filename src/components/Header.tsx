@@ -1,7 +1,7 @@
 // // src/components/Header.tsx
 // import React from "react";
 // import { Link, useLocation } from "react-router-dom";
-// import logo from "/home/krishna/react-battery1/src/assets/LOGO-3.jpg";
+// import logo from "src/assets/LOGO-3.jpg";
 // import "./Header.css";
 
 // const Header: React.FC = () => {
@@ -82,7 +82,7 @@
 // src/components/Header.tsx
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "/home/krishna/react-battery1/src/assets/LOGO-3-removebg-preview.png";
+import logo from "../assets/LOGO-3-removebg-preview.png";
 import "./Header.css";
 
 const Header: React.FC = () => {

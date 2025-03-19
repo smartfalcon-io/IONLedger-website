@@ -15,7 +15,7 @@
     width: 100%;
     height: 100%;
     /* margin-top: 74px; */
-    background-image: url("/home/krishna/react-battery1/src/assets/oems.jpg");
+    background-image: url("src/assets/oems.jpg");
     /* background-repeat: no-repeat; */
     background-position: right;
     background-size: cover;

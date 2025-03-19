@@ -1,8 +1,8 @@
 
 // src/components/Footer.tsx
 import React from "react";
-import "/home/krishna/react-battery1/src/components/Footer.css";
-import logo from "/home/krishna/react-battery1/src/assets/LOGO-3-removebg-preview.png";
+import "../components/Footer.css";
+import logo from "../assets/LOGO-3-removebg-preview.png";
 
 const Footer: React.FC = () => {
   return (

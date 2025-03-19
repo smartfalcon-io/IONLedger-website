@@ -1,6 +1,6 @@
 // import React from "react";
 // import "./Solutions.css";
-// import solutionImage from "/home/krishna/react-battery1/src/assets/battery-passport.jpg";
+// import solutionImage from "src/assets/battery-passport.jpg";
 
 // const Solutions: React.FC = () => {
 //   return (
@@ -163,7 +163,7 @@
 
 // import React from "react";
 // import "./Solutions.css";
-// import solutionImage from "/home/krishna/react-battery1/src/assets/battery-passport.jpg";
+// import solutionImage from "src/assets/battery-passport.jpg";
 
 // const Solutions: React.FC = () => {
 //   return (
@@ -315,7 +315,7 @@
 
 import React from "react";
 import "./Solutions.css";
-import solutionImage from "/home/krishna/react-battery1/src/assets/battery-passport.jpg";
+import solutionImage from "../assets/battery-passport.jpg";
 
 const Solutions: React.FC = () => {
   return (

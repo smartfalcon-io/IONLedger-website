@@ -24,7 +24,7 @@ nav li {
 }
 
 /* .hero {
-  background-image: url('/home/krishna/react-battery1/src/assets/background_home.png');
+  background-image: url('src/assets/background_home.png');
   background-size: cover;
   background-position: center;
   height: 80vh;

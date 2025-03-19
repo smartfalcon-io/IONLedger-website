@@ -11,12 +11,12 @@ import {
 } from "react-icons/fa";
 import "./Home.css";
 
-import solutionImage from "/home/krishna/react-battery1/src/assets/battery-passport.jpg";
-import cellChemistryProvidersImg from "/home/krishna/react-battery1/src/assets/cell_chemistry.jpg";
-import batteryManufacturersImg from "/home/krishna/react-battery1/src/assets/battery_manufacturers.avif";
-import automobileOemsImg from "/home/krishna/react-battery1/src/assets/oem.webp";
-import batteryRepurposersImg from "/home/krishna/Downloads/battery_repurposers.jpg";
-import batteryRecyclersImg from "/home/krishna/react-battery1/src/assets/battery_recyclers.jpg";
+import solutionImage from "../assets/battery-passport.jpg";
+import cellChemistryProvidersImg from "../assets/cell_chemistry.jpg";
+import batteryManufacturersImg from "../assets/battery_manufacturers.avif";
+import automobileOemsImg from "../assets/oem.webp";
+import batteryRepurposersImg from "../assets/battery_repurposers.jpg";
+import batteryRecyclersImg from "../assets/battery_recyclers.jpg";
 
 const Home: React.FC = () => {
   const navigate = useNavigate();

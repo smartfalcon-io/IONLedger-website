@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import "./About.css";
-import originImage from "/home/krishna/react-battery1/src/assets/battery_about1.jpg";
+import originImage from "../assets/battery_about1.jpg";
 
 const About: React.FC = () => {
   const teamTextRef = useRef<HTMLDivElement>(null);

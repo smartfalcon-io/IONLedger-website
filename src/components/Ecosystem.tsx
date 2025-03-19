@@ -1,12 +1,12 @@
 import React, { useEffect, useRef } from "react";
 import "./Ecosystem.css";
-import indyImage from "/home/krishna/react-battery1/src/assets/indy.png";
-import fabricImage from "/home/krishna/react-battery1/src/assets/fabric.png";
-import ipfsImage from "/home/krishna/react-battery1/src/assets/ipfs.jpg";
-import complianceImage from "/home/krishna/react-battery1/src/assets/compliance.jpeg";
-// import ecosystemBanner from "/home/krishna/react-battery1/src/assets/ecosystem_banner.jpg";
-import ecosystemInfoImage from "/home/krishna/react-battery1/src/assets/Untitled (2).png";
-import ecosystemInfoImage2 from "/home/krishna/react-battery1/src/assets/Untitled (1).png";
+import indyImage from "../assets/indy.png";
+import fabricImage from "../assets/fabric.png";
+import ipfsImage from "../assets/ipfs.jpg";
+import complianceImage from "../assets/compliance.jpeg";
+// import ecosystemBanner from "../assets/ecosystem_banner.jpg";
+import ecosystemInfoImage from "../assets/Untitled (2).png";
+import ecosystemInfoImage2 from "../assets/Untitled (1).png";
 
 const sections = [
   {

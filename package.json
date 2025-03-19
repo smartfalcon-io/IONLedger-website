@@ -1,12 +1,9 @@
 {
   "name": "react-battery1",
-  "private": true,
-  "homepage": "https://smartfalcon.github.io/IONLedger-website",
+  "private": true,  
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
