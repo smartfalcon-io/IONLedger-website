@@ -34,8 +34,7 @@ const ScrollToTop = () => {
 
 const App: React.FC = () => {
   return (
-    <Router>
-      <>
+    <Router basename="/IONLedger-website">
         <Header />
         <ScrollToTop /> {/* Add ScrollToTop component */}
         <Routes>
@@ -57,7 +56,6 @@ const App: React.FC = () => {
           <Route path="/battery-recyclers" element={<BatteryRecyclers />} />
         </Routes>
         <Footer />
-      </>
     </Router>
   );
 };
