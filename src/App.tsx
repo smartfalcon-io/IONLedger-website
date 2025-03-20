@@ -9,6 +9,7 @@ import {
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Ecosystem from "./components/Ecosystem";
+import Stakeholders from "./components/Stakeholders"
 import About from "./components/About";
 import Solutions from "./components/Solutions";
 import Contact from "./components/Contact";
@@ -40,6 +41,7 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/ecosystem" element={<Ecosystem />} />
+          <Route path="/stakeholders" element={<Stakeholders />} />
           <Route path="/about" element={<About />} />
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/contact" element={<Contact />} />

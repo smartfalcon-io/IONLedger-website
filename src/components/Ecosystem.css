@@ -7,6 +7,7 @@
     background-position: center center; /* Ensure full coverage */
     padding: 105px;
     position: relative;
+    margin-top: -74px;
 }
 
 .ecosystem-banner::before {
@@ -41,6 +42,7 @@
     font-size: 45px;
     text-align: left;
     z-index: 3;
+    margin-top: 100px;
 }
 
 .ecosystem-banner h1 span {

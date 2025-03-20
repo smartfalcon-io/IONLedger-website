@@ -184,6 +184,11 @@ const Header: React.FC = () => {
             </Link>
           </li>
           <li>
+            <Link to="/stakeholders" className={location.pathname === "/stakeholders" ? "active" : ""} onClick={closeMenu}>
+              STAKEHOLDERS
+            </Link>
+          </li>
+          <li>
             <Link to="/about" className={location.pathname === "/about" ? "active" : ""} onClick={closeMenu}>
               ABOUT
             </Link>

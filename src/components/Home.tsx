@@ -200,7 +200,11 @@ const Home: React.FC = () => {
             ))}
           </div>
         </div>
+<<<<<<< HEAD
       </section> 
+=======
+      </section>  
+>>>>>>> a7ae0a2a79b7ee1f046860ad62c712e2d4954812
 
       {/* STAKEHOLDERS SECTION */}
       <section className="stakeholders-container">
