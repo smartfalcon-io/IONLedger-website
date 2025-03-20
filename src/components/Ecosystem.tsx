@@ -5,7 +5,7 @@ import fabricImage from "../assets/fabric.png";
 import ipfsImage from "../assets/ipfs.jpg";
 import complianceImage from "../assets/compliance.jpeg";
 // import ecosystemBanner from "../assets/ecosystem_banner.jpg";
-import ecosystemInfoImage from "../assets/Untitled (2).png";
+import ecosystemInfoImage from "../assets/Untitled(2).png";
 import ecosystemInfoImage2 from "../assets/Untitled (1).png";
 
 const sections = [
