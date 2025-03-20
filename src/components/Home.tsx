@@ -200,7 +200,7 @@ const Home: React.FC = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> 
 
       {/* STAKEHOLDERS SECTION */}
       <section className="stakeholders-container">

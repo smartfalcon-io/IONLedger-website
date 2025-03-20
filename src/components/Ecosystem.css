@@ -319,7 +319,7 @@
     }
 
     .ecosystem-container {
-        width: 100%;
+        width: 90%;
         padding: 20px;
     }
 
@@ -328,7 +328,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
         padding: 30px 15px;
         text-align: center;
     }
@@ -356,9 +355,17 @@
         padding: 30px 10px;
     }
 
+    .ecosystem-info-image{
+        margin-top: 80px;
+        
+    }
     .ecosystem-info-image, .ecosystem-info-image2 {
         width: 100%;
         transform: scale(1);
+    }
+
+    .ecosystem-info-text p{
+        width: 95%;
     }
 }
 
@@ -387,4 +394,5 @@
     .ecosystem-inner {
         gap: 10px;
     }
+
 }

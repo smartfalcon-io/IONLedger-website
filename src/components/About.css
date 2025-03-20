@@ -597,6 +597,7 @@ section h2 {
 }
 
 @media (max-width: 768px) {
+  
   .about-banner {
     padding: 60px 15px;
     background-position: center center;
@@ -607,12 +608,16 @@ section h2 {
   .about-banner::before {
     height: 500px;
     background-size: contain;
-    background-position: center;
+    background-position: center center;
+    background-image: url("../assets/Business_team_meeting-removebg-preview.png");
+
   }
 
   .about-banner::after {
     height: 500px;
     background-size: contain;
+    background-size: contain;
+
   }
   .ecosystem-banner {
     padding: 60px 15px;
@@ -660,6 +665,12 @@ section h2 {
     margin-top: 50px;
     margin-left: 42px;
   }
+  .origin-image{
+    margin-top: 50px;
+  }
+  .origin-image img{
+    width: 95%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -670,13 +681,14 @@ section h2 {
   
 
   .about-banner::before {
-    height: 100%;
-    background-size: cover;
-    background-position: center;
+    height: 60%;
+    background-position: center center;
   }
-
+  .roboto-slab{
+    margin-top: 350px;
+  }
   .about-banner::after {
-    height: 100%;
+    height: 80%;
   }
 
   .ecosystem-banner {
@@ -705,6 +717,12 @@ section h2 {
     font-size: 0.9rem;
   }
   .origin-container{
-    margin-top: 150px;
+    margin-top: 50px;
   }
+
+  .origin-image img{
+    width: 95%;
+  }
+
+
 }
