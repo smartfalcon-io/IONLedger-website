@@ -417,6 +417,9 @@ line-height: 1.6;
   font-family: 'Roboto Slab', serif;
   font-size: 35px;
 }
+.solution-text p{
+  text-align: justify;
+}
 
 /* General Responsive Fixes */
 @media (max-width: 1024px) {

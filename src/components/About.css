@@ -275,8 +275,8 @@
 }
 
 .about-banner{
-  background-position: center;
-  padding: 95px;
+  background-position: center center;
+  padding: 105px;
   background-size: cover;
 }
 
@@ -597,9 +597,27 @@ section h2 {
 }
 
 @media (max-width: 768px) {
+  .about-banner {
+    padding: 60px 15px;
+    background-position: center center;
+    background-size: contain;
+
+  }
+
+  .about-banner::before {
+    height: 500px;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .about-banner::after {
+    height: 500px;
+    background-size: contain;
+  }
   .ecosystem-banner {
     padding: 60px 15px;
   }
+
 
   .ecosystem-banner h1 {
     font-size: 28px;
@@ -637,9 +655,30 @@ section h2 {
     width: 100%;
     text-align: center;
   }
+ 
+  .origin-text{
+    margin-top: 50px;
+    margin-left: 42px;
+  }
 }
 
 @media (max-width: 480px) {
+  .about-banner {
+    height: auto;
+    padding: 40px 10px;
+  }
+  
+
+  .about-banner::before {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .about-banner::after {
+    height: 100%;
+  }
+
   .ecosystem-banner {
     padding: 40px 10px;
     background-size: contain;
@@ -664,5 +703,8 @@ section h2 {
 
   .ecosystem-info-text p {
     font-size: 0.9rem;
+  }
+  .origin-container{
+    margin-top: 150px;
   }
 }
