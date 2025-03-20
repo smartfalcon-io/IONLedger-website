@@ -1,4 +1,4 @@
-/* src/components/AutomobileOEMs.css */
+/* /components/AutomobileOEMs.css */
 .automobile-oems {
     padding-top: 30px;
     justify-content: center;
@@ -15,7 +15,7 @@
     width: 100%;
     height: 100%;
     /* margin-top: 74px; */
-    background-image: url("src/assets/oems.jpg");
+    background-image: url("../assets/oems.jpg");
     /* background-repeat: no-repeat; */
     background-position: right;
     background-size: cover;
