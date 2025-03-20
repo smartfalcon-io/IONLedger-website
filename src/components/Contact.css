@@ -1,164 +1,231 @@
 .contact {
-    font-family: sans-serif;
-    animation: fadeIn 1.5s ease-in-out forwards;
+  font-family: sans-serif;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+/* .contact-banner h1 {
+  font-size: 2.5em;
+  z-index: 2;
+  text-align: left;
+} */
+
+.contact-banner{
+  background-image: url("src/assets/image.png");
+  background-position: center;
+  padding: 215px;  
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  }
+/* 
+.contact-banner::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 460px;
+  margin-top: 74px;
+  background-image: url("/home/krishna/react-battery1/src/assets/vector3.avif");
+  opacity: 0.01 ;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+}   */
+
+.contact-content {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  font-size: large;
+}
+
+.contact-form {
+  width: 30%;
+  font-size: 20px;
+  padding-left: 50px;
+  animation-name: slideInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction:  normal;
+  animation-fill-mode: initial;
+}
+
+.contact-info {
+  width: 30%;
+  font-size: large;
+  /* animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction:  normal;
+  animation-fill-mode: initial; */
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  width: 80%;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50; 
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.phone-input {
+  display: flex;
+}
+
+.phone-input select {
+  width: 30%;
+  margin-right: 0.5rem;
+}
+
+.contact-info i {
+  margin-right: 0.5rem;
+  font-size: larger;
+}
+
+.info {
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+.icon{
+  font-size: x-large;
+}
+
+
+/* @keyframes slideInLeft {
+  from{
+    transform: translateX(-800px);
   }
 
-  /* .contact-banner h1 {
-    font-size: 2.5em;
-    z-index: 2;
-    text-align: left;
-  } */
+  to{
+    transform: translateX(0);
+  }
+}
 
-  .contact-banner{
-    background-image: url("src/assets/image.png");
-    background-position: center;
-    padding: 215px;  
-    background-size: cover;
-    /* background-repeat: no-repeat; */
-    }
-/* 
-  .contact-banner::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 460px;
-    margin-top: 74px;
-    background-image: url("/home/krishna/react-battery1/src/assets/vector3.avif");
-    opacity: 0.01 ;
-    z-index: 1;
-    background-size: cover;
-    background-position: center;
-  }   */
+@keyframes slideInRight {
+  from{
+    transform: translateY(800px);
+  }
+
+  to{
+    transform: translateY(0);
+  }
+} */
+
+.contact-form, .contact-info {
+  width: 30%;
+  font-size: 20px;
+  padding-left: 50px;
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+}
+
+.contact-info {
+  transform: translateY(50px);
+}
+
+.contact-content.show .contact-form,
+.contact-content.show .contact-info {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+@media (max-width: 1024px) {
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form, .contact-info {
+    width: 90%;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .contact-banner {
+    padding: 150px; /* Reduce banner padding */
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-banner {
+    padding: 100px; /* Further reduce padding */
+  }
 
   .contact-content {
-    display: flex;
-    padding: 2rem;
-    justify-content: center;
-    font-size: large;
+    flex-direction: column;
+    padding: 1rem;
   }
-  
-  .contact-form {
-    width: 30%;
-    font-size: 20px;
-    padding-left: 50px;
-    animation-name: slideInLeft;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction:  normal;
-    animation-fill-mode: initial;
-  }
-  
-  .contact-info {
-    width: 30%;
-    font-size: large;
-    /* animation-name: slideInRight;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction:  normal;
-    animation-fill-mode: initial; */
-  }
-  
-  .form-group {
-    margin-bottom: 1rem;
-    width: 80%;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 0.5rem;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  input[type="tel"],
-  textarea,
-  select {
+
+  .contact-form, .contact-info {
     width: 100%;
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    padding: 1rem;
   }
-  
-  textarea {
-    resize: vertical;
+
+  .form-group {
+    width: 100%;
   }
-  
+
+  input, textarea, select {
+    font-size: 16px;
+  }
+
   button[type="submit"] {
-    background-color: #4CAF50; 
-    color: white;
-    padding: 1rem 2rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
   }
-  
-  .phone-input {
-    display: flex;
+}
+
+@media (max-width: 480px) {
+  .contact-banner {
+    padding: 60px;
+    background-size: contain;
   }
-  
-  .phone-input select {
-    width: 30%;
-    margin-right: 0.5rem;
+
+  .contact-content {
+    padding: 0.5rem;
   }
-  
-  .contact-info i {
-    margin-right: 0.5rem;
-    font-size: larger;
+
+  .contact-form, .contact-info {
+    font-size: 18px;
+    text-align: left;
   }
 
   .info {
-    margin-top: 100px;
-    font-size: 20px;
+    margin-top: 50px;
+    font-size: 16px;
   }
-
-  .icon{
-    font-size: x-large;
-  }
-
-
-  /* @keyframes slideInLeft {
-    from{
-      transform: translateX(-800px);
-    }
-
-    to{
-      transform: translateX(0);
-    }
-  }
-
-  @keyframes slideInRight {
-    from{
-      transform: translateY(800px);
-    }
-
-    to{
-      transform: translateY(0);
-    }
-  } */
-
-  .contact-form, .contact-info {
-    width: 30%;
-    font-size: 20px;
-    padding-left: 50px;
-    opacity: 0;
-    transform: translateX(-50px);
-    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
-  }
-  
-  .contact-info {
-    transform: translateY(50px);
-  }
-  
-  .contact-content.show .contact-form,
-  .contact-content.show .contact-info {
-    opacity: 1;
-    transform: translateX(0);
-  }
-  
+}

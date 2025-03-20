@@ -330,12 +330,11 @@
 
 .origin-container {
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-items: center;
 }
 
 .origin-image {
-  padding-left: 300px;
   padding-right: 30px;
   animation-name: zoomIn;
   animation-duration: 1s;
@@ -344,12 +343,11 @@
 
 .origin-image img {
   height: 400px;
-  width: 550px;
+  width: 500px;
   border-radius: 5px;
 }
 
 .origin-text {
-  padding-right: 300px;
   padding-left: 30px;
   margin-top: -22px;
   font-size: 15.7px;
@@ -359,20 +357,31 @@
   animation-timing-function: ease-in-out;
   font-family: 'lato', sans-serif;
   line-height: 1.5;
+  width: 900px;
+  text-align: justify;
 }
 
 .origin-text h2 {
   font-size: 24px;
+  width: 80%;
+}
+
+.origin-text p{
+  width: 80%;
 }
 
 .details {
   color: gray;
-  padding-left: 320px;
-  padding-right: 320px;
   /* animation-name: fadeInUp; */
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
-  text-align: center;
+  justify-items: center;
+  
+}
+.details p{
+  width: 65%;
+  text-align: justify;
+
 }
 
 .details p {
@@ -383,11 +392,15 @@
   position: relative;
   text-align: center;
   padding: 100px 0;
-  padding-left: 400px;
-  padding-right: 370px;
   margin-top: 100px;
   color: gray;
   margin-bottom: -70px;
+  justify-content: center;
+  display: flex;
+}
+.our-team p{
+  width: 75%;
+  
 }
 
 .our-team::before {
@@ -408,6 +421,7 @@
   opacity: 1;
   line-height: 1.5;
   margin-bottom: 40px;
+  justify-items: center;
   /* animation: fadeInDown 1.5s ease-in-out forwards; */
 }
 
@@ -558,4 +572,97 @@ section h2 {
 .animate-in {
   opacity: 1;
   transform: translateY(0);
+}
+
+@media (max-width: 1024px) {
+  .ecosystem-inner {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+
+  .ecosystem-image, .ecosystem-text {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .ecosystem-banner {
+    padding: 80px 20px;
+  }
+
+  .ecosystem-banner h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .ecosystem-banner {
+    padding: 60px 15px;
+  }
+
+  .ecosystem-banner h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .ecosystem-content {
+    padding: 30px 15px;
+  }
+
+  .ecosystem-inner {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .ecosystem-image {
+    width: 100%;
+    max-width: 100%;
+    transform: none;
+    opacity: 1;
+  }
+
+  .ecosystem-text {
+    text-align: center;
+    opacity: 1;
+    transform: none;
+  }
+  
+  .ecosystem-info-section, .ecosystem-info-section2 {
+    padding: 30px 10px;
+    width: 100%;
+  }
+
+  .ecosystem-info-text {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .ecosystem-banner {
+    padding: 40px 10px;
+    background-size: contain;
+  }
+
+  .ecosystem-banner h1 {
+    font-size: 22px;
+  }
+
+  .ecosystem-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .ecosystem-text p,
+  .ecosystem-text ul li {
+    font-size: 0.9rem;
+  }
+
+  .ecosystem-info-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .ecosystem-info-text p {
+    font-size: 0.9rem;
+  }
 }

@@ -3,9 +3,10 @@
 }
 
 .ecosystem-banner {
-    background-position: center;
-    padding: 105px;
     background-size: cover;
+    background-position: center center; /* Ensure full coverage */
+    padding: 105px;
+    position: relative;
 }
 
 .ecosystem-banner::before {
@@ -56,6 +57,7 @@
     align-items: center;
     width: 100%;
     background-color: #f8f9fa;
+    padding: 20px; /* Prevents content from touching the screen edges */
 }
 
 .ecosystem-content {
@@ -74,6 +76,7 @@
 
 .ecosystem-inner {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     width: 80%;
     max-width: 1200px;
@@ -101,9 +104,7 @@
     opacity: 0.1;
 }
 
-.ecosystem-inner {
-    position: relative;
-}
+
 
 .ecosystem-image {
     width: 45%;
@@ -201,12 +202,14 @@
 }
 
 .ecosystem-info-image {
-    width: 150%;
-    /* max-width: 500px; */
+    width: 100%;
     border-radius: 12px;
     opacity: 0.9;
     transform: scale(0.9);
     transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    position: relative;
+    z-index: 5; /* Ensures it's above the background */
+    margin-top: 50px;
 }
 
 .ecosystem-info-image2 {
@@ -255,4 +258,133 @@
 .ecosystem-info-section2.show .ecosystem-info-image2 {
     opacity: 1;
     transform: scale(0.8);
+}
+
+/* Ensure content doesn't overflow */
+
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    .ecosystem-banner {
+        padding: 80px 20px;
+    }
+
+    .ecosystem-banner h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .ecosystem-inner {
+        flex-direction: column;
+        gap: 20px;
+        width: 90%;
+    }
+
+    .ecosystem-image {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .ecosystem-text {
+        width: 100%;
+        text-align: center;
+        padding: 0 15px; /* Prevents text from touching the edge */
+        box-sizing: border-box;
+    }
+
+    .ecosystem-content {
+        padding: 30px 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ecosystem-banner {
+        background-size: contain; /* Ensures full image is visible */
+        background-position: center center;
+        padding: 60px 15px;
+    }
+
+    .ecosystem-banner::before {
+        height: 300px; /* Reduce height for smaller screens */
+        background-size: contain;
+    }
+
+    .ecosystem-banner::after {
+        height: 300px;
+        background-size: contain;
+    }
+
+    .ecosystem-banner h1 {
+        font-size: 28px;
+    }
+
+    .ecosystem-container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .ecosystem-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 30px 15px;
+        text-align: center;
+    }
+
+    .ecosystem-inner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 95%;
+    }
+
+    .ecosystem-image {
+        width: 100%;
+        max-width: 100%;
+
+    }
+
+    .ecosystem-text {
+        width: 100%;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .ecosystem-info-section, .ecosystem-info-section2 {
+        padding: 30px 10px;
+    }
+
+    .ecosystem-info-image, .ecosystem-info-image2 {
+        width: 100%;
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 480px) {
+    .ecosystem-banner {
+        padding: 30px;
+    }
+
+    .ecosystem-banner h1 {
+        font-size: 24px;
+    }
+
+    .ecosystem-text h1 {
+        font-size: 1.3rem;
+    }
+
+    .ecosystem-text p {
+        font-size: 0.8rem;
+    }
+
+    .ecosystem-content {
+        padding: 30px 0;
+        margin-bottom: 50px;
+    }
+
+    .ecosystem-inner {
+        gap: 10px;
+    }
 }

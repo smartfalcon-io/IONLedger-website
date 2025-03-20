@@ -80,56 +80,116 @@
 
 
 // src/components/Header.tsx
-import React from "react";
+
+// import React from "react";
+// import { Link, useLocation } from "react-router-dom";
+// import logo from "../assets/LOGO-3-removebg-preview.png";
+// import "./Header.css";
+
+// const Header: React.FC = () => {
+//   const location = useLocation();
+
+//   return (
+//     <header className="custom-header">
+//       <div className="logo-container">
+//         <img src={logo} alt="IONLedger Logo" className="logo" />
+//         {/* <h1>ION LEDGER</h1> */}
+//       </div>
+//       <nav>
+//         <ul>
+//           <li>
+//             <Link to="/" className={location.pathname === "/" ? "active" : ""}>
+//               HOME
+//             </Link>
+//           </li>
+//           <li>
+//             <Link
+//               to="/ecosystem"
+//               className={location.pathname === "/ecosystem" ? "active" : ""}
+//             >
+//               ECOSYSTEM
+//             </Link>
+//           </li>
+//           {/* <li>
+//             <Link
+//               to="/solutions"
+//               className={location.pathname === "/solutions" ? "active" : ""}
+//             >
+//               SOLUTIONS
+//             </Link>
+//           </li> */}
+//           <li>
+//             <Link
+//               to="/about"
+//               className={location.pathname === "/about" ? "active" : ""}
+//             >
+//               ABOUT
+//             </Link>
+//           </li>
+//           <li>
+//             <Link
+//               to="/contact"
+//               className={location.pathname === "/contact" ? "active" : ""}
+//             >
+//               CONTACT US
+//             </Link>
+//           </li>
+//         </ul>
+//       </nav>
+//     </header>
+//   );
+// };
+
+// export default Header;
+
+
+
+import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/LOGO-3-removebg-preview.png";
 import "./Header.css";
 
 const Header: React.FC = () => {
   const location = useLocation();
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
 
   return (
     <header className="custom-header">
       <div className="logo-container">
         <img src={logo} alt="IONLedger Logo" className="logo" />
-        {/* <h1>ION LEDGER</h1> */}
       </div>
-      <nav>
+      {/* Menu Icon for Mobile */}
+      <div className="menu-icon" onClick={toggleMenu}>
+        ☰
+      </div>
+      {/* Navigation Menu */}
+      <nav className={menuOpen ? "nav-open" : ""}>
         <ul>
           <li>
-            <Link to="/" className={location.pathname === "/" ? "active" : ""}>
+            <Link to="/" className={location.pathname === "/" ? "active" : ""} onClick={closeMenu}>
               HOME
             </Link>
           </li>
           <li>
-            <Link
-              to="/ecosystem"
-              className={location.pathname === "/ecosystem" ? "active" : ""}
-            >
+            <Link to="/ecosystem" className={location.pathname === "/ecosystem" ? "active" : ""} onClick={closeMenu}>
               ECOSYSTEM
             </Link>
           </li>
-          {/* <li>
-            <Link
-              to="/solutions"
-              className={location.pathname === "/solutions" ? "active" : ""}
-            >
-              SOLUTIONS
-            </Link>
-          </li> */}
           <li>
-            <Link
-              to="/about"
-              className={location.pathname === "/about" ? "active" : ""}
-            >
+            <Link to="/about" className={location.pathname === "/about" ? "active" : ""} onClick={closeMenu}>
               ABOUT
             </Link>
           </li>
           <li>
-            <Link
-              to="/contact"
-              className={location.pathname === "/contact" ? "active" : ""}
-            >
+            <Link to="/contact" className={location.pathname === "/contact" ? "active" : ""} onClick={closeMenu}>
               CONTACT US
             </Link>
           </li>

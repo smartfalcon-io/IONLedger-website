@@ -1,38 +1,38 @@
+/* General Header Styles */
 .custom-header {
   background-color: white;
   color: #2196F3;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px; /* Increased header height */
+  height: 60px;
   padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-/* Container to align logo and text */
+/* Logo */
 .logo-container {
   display: flex;
   align-items: center;
-  padding-left: 70px;
 }
 
-/* Increased the logo size */
 .custom-header .logo {
-  height:auto; /* Adjust height as needed */
-  width: 200px; /* Maintain aspect ratio */
-  margin-right: 10px;
+  height: auto;
+  width: 150px;
 }
 
-/* Increased font size of ION LEDGER */
-.custom-header h1 {
-  font-size: 30px;
-  color: #2196F3
+/* Desktop Navigation */
+.custom-header nav {
+  display: flex;
 }
 
-/* Navigation */
 .custom-header nav ul {
   list-style: none;
   display: flex;
   padding-right: 50px;
+  margin: 0;
 }
 
 .custom-header nav li {
@@ -57,4 +57,61 @@
 .custom-header nav a.active {
   color: #2196F3;
   font-weight: bold;
+}
+
+/* Mobile Menu Icon */
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+/* ✅ Mobile View Fixes */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  /* Hide menu by default */
+  .custom-header nav {
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Show menu when toggled */
+  .custom-header .nav-open {
+    display: flex;
+  }
+
+  .custom-header nav ul {
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .custom-header nav li {
+    padding: 15px 0;
+    font-size: 16px;
+  }
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 480px) {
+  .custom-header {
+    padding: 8px;
+  }
+
+  .custom-header .logo {
+    width: 130px;
+  }
 }
