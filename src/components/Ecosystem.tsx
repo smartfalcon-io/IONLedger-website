@@ -139,7 +139,7 @@ const Ecosystem: React.FC = () => {
         />
         <div className="ecosystem-info-text">
           <p>
-            <strong>ARAI(Automotive Research Association of India)</strong>{" "}
+            <strong>ION LEDGER</strong>{" "}
             <br />
             • Maintains Hyperledger Indy & Fabric networks, ensuring security,
             uptime, and compliance. <br />• Manages IPFS nodes for decentralized
