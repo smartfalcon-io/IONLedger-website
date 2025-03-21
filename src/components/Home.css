@@ -395,11 +395,8 @@
 max-width: 550px;
 border-radius: 10px;
 transition: transform 0.3s ease-in-out;
-<<<<<<< HEAD
 margin-top: -142px;
 
-=======
->>>>>>> a7ae0a2a79b7ee1f046860ad62c712e2d4954812
 }
 
 .solution-image img:hover {

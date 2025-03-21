@@ -212,7 +212,8 @@ button[type="submit"] {
 @media (max-width: 480px) {
   .contact-banner {
     padding: 60px;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .contact-content {
@@ -221,7 +222,6 @@ button[type="submit"] {
 
   .contact-form, .contact-info {
     font-size: 18px;
-    text-align: left;
   }
 
   .info {
