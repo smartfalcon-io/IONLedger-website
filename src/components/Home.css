@@ -480,12 +480,14 @@ line-height: 1.6;
   .solution-content {
     flex-direction: column;
   }
-
+  .solutions-container{
+    align-items: center;
+    margin-left: 40px;
+  }
   .solution-image img {
     width: 90%;
     height: auto;
-    margin-left: -20px;
-    
+
   }
 
   .solution-text {
@@ -497,6 +499,11 @@ line-height: 1.6;
 
 @media (max-width: 480px) {
   /* Further Reduce Text Size */
+
+  .hero-content{
+    margin-top: -180px;
+  }
+
   .hero-content h1 {
     font-size: 1.8rem;
   }
@@ -511,10 +518,28 @@ line-height: 1.6;
   }
 
   .stakeholder.card {
-    padding: 15px;
+    padding: 20px;
   }
 
   .feature-item p {
     font-size: 14px;
+  }
+
+  .solution-text p{
+    width: 110%;
+    margin-left: -25px;
+  }
+  .solution-text h2{
+    width: 120%;
+    margin-left: -35px;
+  }
+
+  .stakeholder.card{
+    margin-left: -15px;
+    text-align: center;
+  }
+  .solutions-container{
+    align-items: center;
+    margin-left: -25px;
   }
 }

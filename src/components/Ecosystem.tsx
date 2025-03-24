@@ -139,32 +139,33 @@ const Ecosystem: React.FC = () => {
         />
         <div className="ecosystem-info-text">
           <p>
-            <strong>ION LEDGER</strong> <br />
-            • Maintains Hyperledger Indy & Fabric networks, ensuring security,
-            uptime, and compliance. <br />• Manages IPFS nodes for decentralized
+            <strong className="side">ION LEDGER</strong> <br />
+            <li>Maintains Hyperledger Indy & Fabric networks, ensuring security,
+            uptime, and compliance. </li><li>Manages IPFS nodes for decentralized
             storage of battery data. Develops APIs for seamless data integration
-            between Indy, Fabric, IPFS, and external systems. <br />
-            <strong>Tier-1 Battery Packer</strong> <br />
-            • Participates in Indy and Fabric networks, Issues Verifiable
+            between Indy, Fabric, IPFS, and external systems. </li><br />
+            <strong className="side">Tier-1 Battery Packer</strong> <br />
+            <li>Participates in Indy and Fabric networks, Issues Verifiable
             Credentials (VC's) using Hyperledger Aries, containing battery
-            manufacturing & sourcing data. <br />
-            • Maintains a database to track issued VCs and ensure supply chain
-            traceability.
+            manufacturing & sourcing data.</li>
+            <li>Maintains a database to track issued VCs and ensure supply chain
+            traceability.</li>
             <br />
-            <strong>OEM (Original Equipment Manufacturer)</strong> <br />
-            • Participates in Hyperledger Fabric, storing and managing battery
-            lifecycle data.
-            <br />• Verifies and manages VCs from Tier-1 packers using Aries
-            agents. <br />• Pushes telemetry data (charge cycles, safety alerts)
-            into Fabric and optionally stores logs in IPFS.
+            <strong className="side">OEM (Original Equipment Manufacturer)</strong> <br />
+            <li>Participates in Hyperledger Fabric, storing and managing battery
+            lifecycle data.</li>
+            <li>Verifies and manages VCs from Tier-1 packers using Aries
+            agents.</li>
+            <li>Pushes telemetry data (charge cycles, safety alerts)
+            into Fabric and optionally stores logs in IPFS.</li>
             <br />
-            <strong>
+            <strong className="side">
               Downstream Players (Recycler, Government, etc.,)
             </strong>{" "}
-            <br /> • Participate in Indy and Fabric networks, Verify VCs from
-            OEMs using Aries agents.
-            <br />• Access battery lifecycle data on Fabric for compliance,
-            recycling, and second-life programs.
+            <br /><li>Participate in Indy and Fabric networks, Verify VCs from
+            OEMs using Aries agents.</li>
+            <li>Access battery lifecycle data on Fabric for compliance,
+            recycling, and second-life programs.</li>
           </p>
         </div>
       </div>

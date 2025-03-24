@@ -368,7 +368,9 @@
 
     .ecosystem-info-text p{
         width: 95%;
+        text-align: justify;
     }
+
 }
 
 @media (max-width: 480px) {
@@ -402,6 +404,16 @@
 
     .ecosystem-text p {
         font-size: 0.8rem;
+        text-align: justify;
+    }
+
+    .ecosystem-text ul{
+        align-items: center;
+        width: 100%;
+        margin-left: -20px;
+    }
+    .ecosystem-text ul li{
+        text-align: justify;
     }
 
     .ecosystem-content {
@@ -411,6 +423,10 @@
 
     .ecosystem-inner {
         gap: 10px;
+    }
+
+    .ecosystem-info-text p{
+        padding: 10px;
     }
 
 }

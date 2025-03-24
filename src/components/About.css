@@ -309,7 +309,7 @@
 
 .about-banner h1{
   position: relative;
-  font-size: 3rem;
+  font-size: 2.9rem;
   text-align: left;
   z-index: 3;
 }
@@ -681,15 +681,16 @@ section h2 {
   
 
   .about-banner::before {
-    height: 60%;
+    height: 70%;
     background-position: center center;
   }
   .roboto-slab{
     margin-top: 350px;
   }
   .about-banner::after {
-    height: 80%;
+    height: 95%;
   }
+
 
   .ecosystem-banner {
     padding: 40px 10px;
@@ -698,6 +699,7 @@ section h2 {
 
   .ecosystem-banner h1 {
     font-size: 22px;
+    
   }
 
   .ecosystem-text h1 {
@@ -717,12 +719,32 @@ section h2 {
     font-size: 0.9rem;
   }
   .origin-container{
-    margin-top: 50px;
+    margin-top: -150px;
   }
 
   .origin-image img{
-    width: 95%;
+    width: 90%;
+    height: auto;
+    margin-left: 20px;
   }
 
+  .origin-text{
+    align-items: center;
+    margin-left: -10px;
+  }
 
+  .origin-text h2{
+    text-align: left;
+  }
+  .origin-text p{
+    line-height: 1.5;
+    text-align: justify;
+    width: 90%;
+  }
+  .details{
+    align-items: center;
+  }
+  .details p{
+    width: 80%;
+  }
 }

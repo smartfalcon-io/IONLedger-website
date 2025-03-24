@@ -12,7 +12,7 @@ import batteryRecyclersImg from "../assets/battery_recyclers.jpg";
 const Stakeholders: React.FC = () => {
   const navigate = useNavigate();
 
-  const [stakeholdersViewRef, stakeholdersInView] = useInView({
+  const [stakeholdersViewRef] = useInView({
     triggerOnce: true,
     threshold: 0.3,
   });
