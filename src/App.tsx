@@ -14,6 +14,7 @@ import About from "./components/About";
 import Solutions from "./components/Solutions";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Resources from "./components/Resources";
 
 import CellChemistryProviders from "./components/CellChemistryProviders";
 import BatteryManufacturers from "./components/BatteryManufacturers";
@@ -43,6 +44,7 @@ const App: React.FC = () => {
           <Route path="/ecosystem" element={<Ecosystem />} />
           <Route path="/stakeholders" element={<Stakeholders />} />
           <Route path="/about" element={<About />} />
+          <Route path="/resources" element={<Resources />} />
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/contact" element={<Contact />} />
           <Route

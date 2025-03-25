@@ -189,6 +189,11 @@ const Header: React.FC = () => {
             </Link>
           </li>
           <li>
+            <Link to="/resources" className={location.pathname === "/resources" ? "active" : ""} onClick={closeMenu}>
+              RESOURCES
+            </Link>
+          </li>
+          <li>
             <Link to="/about" className={location.pathname === "/about" ? "active" : ""} onClick={closeMenu}>
               ABOUT
             </Link>
