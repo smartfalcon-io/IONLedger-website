@@ -11,6 +11,7 @@
     padding: 185px;
     background-size: cover;
     margin-bottom: -20px;
+    position: relative;
 }
 
 .resources-banner::before {
@@ -19,7 +20,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 460px;
+    height: 400px;
     margin-top: 74px;
     background-image: url("dist/assets/resources-removebg-preview.png");
     background-repeat: no-repeat;
@@ -52,9 +53,9 @@
 .resources-container {
     display: flex;
     flex-direction: column;
-    width: 100%;
     background-color: #f8f9fa;
-    padding: 20px;
+    padding: 50px;
+    margin-top: 50px;
 }
 
 .resources-content {
@@ -78,23 +79,8 @@
 
 .resources-content.reverse .resources-inner {
     flex-direction: row-reverse;
+    flex-wrap: wrap;
 }
-
-.resources-content:nth-child(odd) {
-    position: relative;
-}
-
-.resources-content:nth-child(even)::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../assets/Premium Vector _ Pattern geometric line circle abstract seamless blue line (Copy).jpeg");
-    opacity: 0.1;
-}
-
 
 .resources-image {
     flex: 1;
@@ -102,33 +88,13 @@
     border-radius: 10px;
     opacity: 1;
     transform: none;
-    /* transition: opacity 1s ease-in-out, transform 1s ease-in-out; */
 }
-
-/* .resources-content:nth-child(odd) .resources-image {
-    transform: translateX(-50px);
-} */
-
-/* .resources-content:nth-child(even) .resources-image {
-    transform: translateX(50px);
-} */
-
-/* .resources-content.show .resources-image {
-    opacity: 1;
-    transform: translateX(0);
-} */
 
 .resources-text {
     flex: 1;
     padding: 20px;
     opacity: 1;
-    transform: none;
     text-align: justify;
-}
-
-.resources-content.show .resources-text {
-    opacity: 1;
-    /* transform: translateY(0);  */
 }
 
 .resources-text h1 {
@@ -158,4 +124,79 @@
 
 .resources-content:nth-child(odd) .resources-text {
     color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .resources-banner h1 {
+        font-size: 2.5rem;
+    }
+
+    .resources-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .resources-inner {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .resources-image {
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+  
+    
+    .resources-banner h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .resources-container {
+        padding: 20px;
+        margin-top: 150px;
+    }
+
+    .resources-text h1 {
+        font-size: 1.8rem;
+    }
+
+    .resources-text p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .resources-banner{
+        height: 100px;
+        object-fit: cover;
+    }
+    .resources-banner h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-left: -80px;
+    }
+
+    .resources-content {
+        padding: 20px 0;
+    }
+
+    .resources-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .resources-text p {
+        font-size: 16px;
+    }
+
+    .resources-image {
+        max-width: 100%;
+    }
 }
