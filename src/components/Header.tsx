@@ -192,7 +192,32 @@ const Header: React.FC = () => {
             <Link to="/resources" className={location.pathname === "/resources" ? "active" : ""} onClick={closeMenu}>
               RESOURCES
             </Link>
-          </li>
+          </li> 
+          <li>
+            <Link to="/cell-chemistry-providers" className={location.pathname === "/cell-chemistry-providers" ? "active" : ""} onClick={closeMenu}>
+              CELL-CHEMISTRY PROVIDERS
+            </Link>
+          </li>           
+          <li>
+            <Link to="/battery-manufacturers" className={location.pathname === "/battery-manufacturers" ? "active" : ""} onClick={closeMenu}>
+              BATTERY MANUFACTURERS
+            </Link>
+          </li>           
+          <li>
+            <Link to="/automobile-oems" className={location.pathname === "/automobile-oems" ? "active" : ""} onClick={closeMenu}>
+              AUTOMOBILE OEMS
+            </Link>
+          </li>           
+          <li>
+            <Link to="/battery-repurposers" className={location.pathname === "/battery-repurposers" ? "active" : ""} onClick={closeMenu}>
+              BATTERY REPURPOSERS
+            </Link>
+          </li> 
+          <li>
+            <Link to="/battery-recyclers" className={location.pathname === "/battery-recyclers" ? "active" : ""} onClick={closeMenu}>
+              BATTERY RECYCLERS
+            </Link>
+          </li> 
           <li>
             <Link to="/about" className={location.pathname === "/about" ? "active" : ""} onClick={closeMenu}>
               ABOUT
