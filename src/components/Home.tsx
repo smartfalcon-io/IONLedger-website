@@ -396,7 +396,6 @@ const Home: React.FC = () => {
             <div
               className="stakeholder card"
               key={index}
-              onClick={() => navigate(stakeholder.link)}
             >
               <img src={stakeholder.image} alt={stakeholder.title} />
               <h3>{stakeholder.title}</h3>

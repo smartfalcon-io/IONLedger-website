@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from "react";
 import "./About.css";
-import originImage from "../assets/Business_team_meeting-removebg-preview.png";
 
 const About: React.FC = () => {
   const teamTextRef = useRef<HTMLDivElement>(null);
