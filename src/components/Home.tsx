@@ -145,41 +145,41 @@
 //         </div>
 //         <div className="solution-text">
 //           <h2>Battery Passport</h2>
-//           <p>
-//             The Battery Passport is a digital identity that ensures full
-//             traceability of a battery from raw material sourcing to end-of-life
-//             recycling. It securely records both static and dynamic data
-//             throughout the battery’s lifecycle, enhancing transparency,
-//             compliance, and sustainability in the supply chain. In the upstream
-//             phase, key entities such as miners, cell manufacturers,
-//             distributors, retailers, and Tier-1 pack manufacturers collect
-//             crucial data, including material sourcing, manufacturing processes,
-//             quality control details, and shipment records.
-//             <br /> <br />
-//             This data is converted into verifiable credentials (VCs) using
-//             Hyperledger Indy, ensuring immutability and tamper-proof
-//             authentication. The credentials are then issued by Tier-1
-//             manufacturers and securely stored by the OEMs (Original Equipment
-//             Manufacturers) for verification and supply chain tracking. In the
-//             downstream phase, real-time dynamic data such as battery discharge
-//             rate, charge cycles, usage patterns, and temperature metrics is
-//             collected by OEMs, dealers, recyclers, and regulatory bodies. This
-//             data is managed on Hyperledger Fabric, ensuring secure and
-//             permissioned access. <br />
-//             <br />
-//             Additionally, IPFS (InterPlanetary File System) is used for
-//             decentralized storage, enabling scalability and efficient data
-//             retrieval. By integrating blockchain technology, the Battery
-//             Passport enhances security, prevents counterfeiting, and promotes a
-//             circular economy, ensuring that batteries are sustainably tracked
-//             and efficiently recycled at the end of their lifecycle. This digital
-//             identity ensures <strong>full traceability</strong> from raw
-//             material sourcing to end-of-life recycling. Using{" "}
-//             <strong>Hyperledger Indy</strong>, we create{" "}
-//             <strong>verifiable credentials</strong> that securely store
-//             information about the battery's components, manufacturing processes,
-//             quality control data, and shipment details.
-//           </p>
+          // <p>
+          //   The Battery Passport is a digital identity that ensures full
+          //   traceability of a battery from raw material sourcing to end-of-life
+          //   recycling. It securely records both static and dynamic data
+          //   throughout the battery’s lifecycle, enhancing transparency,
+          //   compliance, and sustainability in the supply chain. In the upstream
+          //   phase, key entities such as miners, cell manufacturers,
+          //   distributors, retailers, and Tier-1 pack manufacturers collect
+          //   crucial data, including material sourcing, manufacturing processes,
+          //   quality control details, and shipment records.
+          //   <br /> <br />
+          //   This data is converted into verifiable credentials (VCs) using
+          //   Hyperledger Indy, ensuring immutability and tamper-proof
+          //   authentication. The credentials are then issued by Tier-1
+          //   manufacturers and securely stored by the OEMs (Original Equipment
+          //   Manufacturers) for verification and supply chain tracking. In the
+          //   downstream phase, real-time dynamic data such as battery discharge
+          //   rate, charge cycles, usage patterns, and temperature metrics is
+          //   collected by OEMs, dealers, recyclers, and regulatory bodies. This
+          //   data is managed on Hyperledger Fabric, ensuring secure and
+          //   permissioned access. <br />
+          //   <br />
+          //   Additionally, IPFS (InterPlanetary File System) is used for
+          //   decentralized storage, enabling scalability and efficient data
+          //   retrieval. By integrating blockchain technology, the Battery
+          //   Passport enhances security, prevents counterfeiting, and promotes a
+          //   circular economy, ensuring that batteries are sustainably tracked
+          //   and efficiently recycled at the end of their lifecycle. This digital
+          //   identity ensures <strong>full traceability</strong> from raw
+          //   material sourcing to end-of-life recycling. Using{" "}
+          //   <strong>Hyperledger Indy</strong>, we create{" "}
+          //   <strong>verifiable credentials</strong> that securely store
+          //   information about the battery's components, manufacturing processes,
+          //   quality control data, and shipment details.
+          // </p>
 //         </div>
 //       </section>
 
@@ -368,7 +368,35 @@ const Home: React.FC = () => {
             traceability of a battery from raw material sourcing to end-of-life
             recycling. It securely records both static and dynamic data
             throughout the battery’s lifecycle, enhancing transparency,
-            compliance, and sustainability in the supply chain.
+            compliance, and sustainability in the supply chain. In the upstream
+            phase, key entities such as miners, cell manufacturers,
+            distributors, retailers, and Tier-1 pack manufacturers collect
+            crucial data, including material sourcing, manufacturing processes,
+            quality control details, and shipment records.
+            <br /> <br />
+            This data is converted into verifiable credentials (VCs) using
+            Hyperledger Indy, ensuring immutability and tamper-proof
+            authentication. The credentials are then issued by Tier-1
+            manufacturers and securely stored by the OEMs (Original Equipment
+            Manufacturers) for verification and supply chain tracking. In the
+            downstream phase, real-time dynamic data such as battery discharge
+            rate, charge cycles, usage patterns, and temperature metrics is
+            collected by OEMs, dealers, recyclers, and regulatory bodies. This
+            data is managed on Hyperledger Fabric, ensuring secure and
+            permissioned access. <br />
+            <br />
+            Additionally, IPFS (InterPlanetary File System) is used for
+            decentralized storage, enabling scalability and efficient data
+            retrieval. By integrating blockchain technology, the Battery
+            Passport enhances security, prevents counterfeiting, and promotes a
+            circular economy, ensuring that batteries are sustainably tracked
+            and efficiently recycled at the end of their lifecycle. This digital
+            identity ensures <strong>full traceability</strong> from raw
+            material sourcing to end-of-life recycling. Using{" "}
+            <strong>Hyperledger Indy</strong>, we create{" "}
+            <strong>verifiable credentials</strong> that securely store
+            information about the battery's components, manufacturing processes,
+            quality control data, and shipment details.
           </p>
         </div>
       </section>
