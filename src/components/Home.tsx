@@ -104,11 +104,11 @@ const Home: React.FC = () => {
       <section className="hero">
         <div className="hero-content">
           <h1 className="roboto-slab">
-            Powering <span className="green-text">Trust</span>
+            Powering <span className="green-text">Trust.</span>
             <br />
-            Empowering <span className="green-text">Sustainability</span>
+            Empowering <span className="green-text">Sustainability.</span>
             <br />
-            Transforming the <span className="green-text">Future</span>
+            Transforming the <span className="green-text">Future!</span>
           </h1>
           <p>Explore our ecosystem</p>
           <button className="learn-more" onClick={handleLearnMoreClick}>
