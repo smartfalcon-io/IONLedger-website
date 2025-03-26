@@ -71,12 +71,6 @@ const About: React.FC = () => {
         <section className="origin">
           <div className="origin-container">
             <div className="origin-image">
-              <img
-                src={originImage}
-                width="600"
-                height="auto"
-                alt="Origin Story"
-              />
             </div>
             <div className="origin-text">
               <h2>From Vision to Reality: Our Journey to Sustainable Energy</h2>

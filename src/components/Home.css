@@ -59,7 +59,6 @@
   }
 
   .animate-stakeholders .stakeholder.card {
-    animation: slideLeft 1s ease-in-out forwards;
   }
   
   .stakeholder.card img {
@@ -163,7 +162,7 @@
   text-align: center;
   margin-bottom: 100px;
   background-color: #f9f9f9;
-  opacity: 0;
+  opacity: 1;
   transform: translateY(50px);
   z-index: 2;
   

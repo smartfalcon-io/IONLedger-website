@@ -357,13 +357,17 @@
   animation-timing-function: ease-in-out;
   font-family: 'lato', sans-serif;
   line-height: 1.5;
-  width: 900px;
+  width: 85%;
   text-align: justify;
+  justify-items: center;
+  margin-left: 60px;
 }
+
 
 .origin-text h2 {
   font-size: 24px;
   width: 80%;
+  text-align: center;
 }
 
 .origin-text p{
@@ -662,8 +666,9 @@ section h2 {
   }
  
   .origin-text{
-    margin-top: 50px;
-    margin-left: 42px;
+    justify-items: center;
+    margin-left: -30px;
+    width: 90%;
   }
   .origin-image{
     margin-top: 50px;
