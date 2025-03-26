@@ -70,8 +70,7 @@ const About: React.FC = () => {
         </div>
         <section className="origin">
           <div className="origin-container">
-            <div className="origin-image">
-            </div>
+
             <div className="origin-text">
               <h2>From Vision to Reality: Our Journey to Sustainable Energy</h2>
               <p>
