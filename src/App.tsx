@@ -15,6 +15,9 @@ import Solutions from "./components/Solutions";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Resources from "./components/Resources";
+import Repurposers from "./components/Repurposers";
+import Holder from "./components/Holder";
+import Issuer from "./components/Issuer";
 
 import CellChemistryProviders from "./components/CellChemistryProviders";
 import BatteryManufacturers from "./components/BatteryManufacturers";
@@ -45,6 +48,9 @@ const App: React.FC = () => {
           <Route path="/stakeholders" element={<Stakeholders />} />
           <Route path="/about" element={<About />} />
           <Route path="/resources" element={<Resources />} />
+          <Route path="/issuer" element={<Issuer />} />
+          <Route path="/holder" element={<Holder />} />
+          <Route path="/repurposers" element={<Repurposers />} />
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/contact" element={<Contact />} />
           <Route
