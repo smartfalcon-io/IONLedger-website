@@ -3,9 +3,9 @@ import { useInView } from "react-intersection-observer";
 import { useNavigate } from "react-router-dom";
 import "./Resources.css";
 
-import batteryRepurposersImg from "../assets/battery_repurposers.jpg";
-import issuerImg from "../assets/issuer-removebg-preview (1).png";
-import holderImg from "../assets/holder.webp";
+import batteryRepurposersImg from "../assets/images/battery_repurposers.jpg";
+import issuerImg from "../assets/images/issuer-removebg-preview (1).png";
+import holderImg from "../assets/images/holder.webp";
 
 const Resources: React.FC = () => {
   const navigate = useNavigate();

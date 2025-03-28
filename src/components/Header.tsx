@@ -146,7 +146,7 @@
 
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/LOGO-3-removebg-preview.png";
+import logo from "../assets/images/LOGO-3-removebg-preview.png";
 import "./Header.css";
 
 const Header: React.FC = () => {

@@ -2,11 +2,11 @@ import React from "react";
 import "./Issuer.css";
 import { useEffect, useRef } from "react";
 
-import authenticateImage from "../assets/signin_content.png";
-import roleImage from "../assets/issuer_page.png";
-import vcImage from "../assets/verifiable_credential_page.png";
-import registeredusersImage from "../assets/registered_users_page.png";
-import uploadfileImage from "../assets/upload_file_page.png";
+import authenticateImage from "../assets/images/signin_content.png";
+import roleImage from "../assets/images/issuer_page.png";
+import vcImage from "../assets/images/verifiable_credential_page.png";
+import registeredusersImage from "../assets/images/registered_users_page.png";
+import uploadfileImage from "../assets/images/upload_file_page.png";
 
 const sections = [
   {

@@ -10,7 +10,7 @@
 } */
 
   .contact-banner{
-    background-image: url("../assets/image.png");
+    background-image: url("../assets/images/image.png");
     background-position: center;
     padding: 215px;  
     background-size: cover;
@@ -25,7 +25,7 @@
     width: 100%;
     height: 460px;
     margin-top: 74px;
-    background-image: url("/home/krishna/react-battery1//assets/vector3.avif");
+    background-image: url("/home/krishna/react-battery1//assets/images/vector3.avif");
     opacity: 0.01 ;
     z-index: 1;
     background-size: cover;

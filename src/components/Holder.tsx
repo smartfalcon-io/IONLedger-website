@@ -2,21 +2,21 @@ import React from "react";
 import "./Holder.css";
 import { useEffect, useRef } from "react";
 
-import homePageImage from "../assets/home.png";
-import viewMoreImage from "../assets/view_more.png";
-import generalImage from "../assets/general_content.png";
-import materialCompositionImage from "../assets/materialComposition_content.png";
-import complianceImage from "../assets/compliance_content.png";
-import supplychainImage from "../assets/supplychain_content.png";
-import circularityImage from "../assets/circularty_content.png";
-import carbonFootprintImage from "../assets/carbonfootprint_content.png";
-import authenticateImage from "../assets/signin_content.png";
-import starterImage from "../assets/starter.png";
-import roleImage from "../assets/holder_home.png";
-import vcImage from "../assets/verifiable_credential_page.png";
-import registeredusersImage from "../assets/registered_users_page.png";
-import materialImage from "../assets/materials_composition_display.png";
-import performanceImage from "../assets/performance_content.png";
+import homePageImage from "../assets/images/home.png";
+import viewMoreImage from "../assets/images/view_more.png";
+import generalImage from "../assets/images/general_content.png";
+import materialCompositionImage from "../assets/images/materialComposition_content.png";
+import complianceImage from "../assets/images/compliance_content.png";
+import supplychainImage from "../assets/images/supplychain_content.png";
+import circularityImage from "../assets/images/circularty_content.png";
+import carbonFootprintImage from "../assets/images/carbonfootprint_content.png";
+import authenticateImage from "../assets/images/signin_content.png";
+import starterImage from "../assets/images/starter.png";
+import roleImage from "../assets/images/holder_home.png";
+import vcImage from "../assets/images/verifiable_credential_page.png";
+import registeredusersImage from "../assets/images/registered_users_page.png";
+import materialImage from "../assets/images/materials_composition_display.png";
+import performanceImage from "../assets/images/performance_content.png";
 
 const sections = [
   {

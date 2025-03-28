@@ -3,11 +3,11 @@ import { useInView } from "react-intersection-observer";
 import { useNavigate } from "react-router-dom";
 import "./Stakeholders.css";
 
-import cellChemistryProvidersImg from "../assets/cell_chemistry.jpg";
-import batteryManufacturersImg from "../assets/battery_manufacturers.avif";
-import automobileOemsImg from "../assets/oem.webp";
-import batteryRepurposersImg from "../assets/battery_repurposers.jpg";
-import batteryRecyclersImg from "../assets/battery_recyclers.jpg";
+import cellChemistryProvidersImg from "../assets/images/cell_chemistry.jpg";
+import batteryManufacturersImg from "../assets/images/battery_manufacturers.avif";
+import automobileOemsImg from "../assets/images/oem.webp";
+import batteryRepurposersImg from "../assets/images/battery_repurposers.jpg";
+import batteryRecyclersImg from "../assets/images/battery_recyclers.jpg";
 
 const Stakeholders: React.FC = () => {
   const navigate = useNavigate();
