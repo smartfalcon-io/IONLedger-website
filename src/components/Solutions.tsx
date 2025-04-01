@@ -314,7 +314,7 @@
 // export default Solutions;
 
 import React from "react";
-import "./Solutions.css";
+import "../assets/CSS/Solutions.css";
 import solutionImage from "../assets/images/battery-passport.jpg";
 
 const Solutions: React.FC = () => {

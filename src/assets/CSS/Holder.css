@@ -1,4 +1,4 @@
-.issuer {
+.holder {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -7,14 +7,14 @@
     max-width: 1800px;
 }
 
-.issuer-banner {
+.holder-banner {
     background-position: center;
     padding: 185px;
     background-size: cover;
     margin-bottom: -20px;
 }
 
-.issuer-banner::before {
+.holder-banner::before {
     content: "";
     position: absolute;
     top: 0;
@@ -22,13 +22,13 @@
     width: 100%;
     height: 460px;
     margin-top: 74px;
-    background-image: url("dist/assets/images/issuer-removebg-preview (1).png");
+    background-image: url("dist/assets/images/holder.webp");
     background-repeat: no-repeat;
     background-position: right;
     z-index: 2;
 }
 
-.issuer-banner h1 {
+.holder-banner h1 {
     position: relative;
     font-size: 3rem;
     text-align: left;
@@ -37,7 +37,7 @@
     color: #4CAF50;
 }
 
-.issuer-banner::after {
+.holder-banner::after {
     content: "";
     position: absolute;
     top: 0;
@@ -45,12 +45,12 @@
     width: 100%;
     height: 460px;
     margin-top: 74px;
-    background-image: url("../assets/images/vector8.avif");
+    background-image: url("../images/vector8.avif");
     opacity: 0.5;
     z-index: 1;
 }
 
-.issuer-container {
+.holder-container {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -58,7 +58,7 @@
     padding: 20px;
 }
 
-.issuer-content {
+.holder-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,7 +69,7 @@
     overflow: hidden;
 }
 
-.issuer-inner {
+.holder-inner {
     display: flex;
     align-items: center;
     width: 100%;
@@ -77,27 +77,27 @@
     margin-left: 10px;
 }
 
-.issuer-content.reverse .issuer-inner {
+.holder-content.reverse .holder-inner {
     flex-direction: row-reverse;
 }
 
-.issuer-content:nth-child(odd) {
+.holder-content:nth-child(odd) {
     position: relative;
 }
 
-.issuer-content:nth-child(even)::before {
+.holder-content:nth-child(even)::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("../assets/images/Premium Vector _ Pattern geometric line circle abstract seamless blue line (Copy).jpeg");
+    background-image: url("../images/Premium Vector _ Pattern geometric line circle abstract seamless blue line (Copy).jpeg");
     opacity: 0.1;
 }
 
 
-.issuer-image {
+.holder-image {
     flex: 1;
     max-width: 60%;
     border-radius: 10px;
@@ -106,20 +106,20 @@
     /* transition: opacity 1s ease-in-out, transform 1s ease-in-out; */
 }
 
-/* .issuer-content:nth-child(odd) .issuer-image {
+/* .resources-content:nth-child(odd) .resources-image {
     transform: translateX(-50px);
 } */
 
-/* .issuer-content:nth-child(even) .issuer-image {
+/* .resources-content:nth-child(even) .resources-image {
     transform: translateX(50px);
 } */
 
-/* .issuer-content.show .issuer-image {
+/* .resources-content.show .resources-image {
     opacity: 1;
     transform: translateX(0);
 } */
 
-.issuer-text {
+.holder-text {
     flex: 1;
     padding: 20px;
     opacity: 1;
@@ -127,36 +127,36 @@
     text-align: justify;
 }
 
-.issuer-content.show .issuer-text {
+.holder-content.show .holder-text {
     opacity: 1;
     /* transform: translateY(0);  */
 }
 
-.issuer-text h1 {
+.holder-text h1 {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 15px;
     font-family: 'Roboto Slab', serif;
 }
 
-.issuer-text p {
+.holder-text p {
     font-size: 20px;
     color: gray;
     line-height: 1.6;
 }
 
-.issuer-text ul {
+.holder-text ul {
     margin-top: 10px;
     padding-left: 20px;
 }
 
-.issuer-text ul li {
+.holder-text ul li {
     font-size: 1rem;
     color: gray;
     margin-bottom: 5px;
     list-style-type: disc;
 }
 
-.issuer-content:nth-child(odd) .issuer-text {
+.holder-content:nth-child(odd) .holder-text {
     color: black;
 }

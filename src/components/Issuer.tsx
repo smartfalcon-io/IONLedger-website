@@ -1,5 +1,5 @@
 import React from "react";
-import "./Issuer.css";
+import "../assets/CSS/Issuer.css";
 import { useEffect, useRef } from "react";
 
 import authenticateImage from "../assets/images/signin_content.png";

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Holder.css";
+import "../assets/CSS/Holder.css";
 import { useEffect, useRef } from "react";
 
 import homePageImage from "../assets/images/home.png";

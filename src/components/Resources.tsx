@@ -1,7 +1,7 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
 import { useNavigate } from "react-router-dom";
-import "./Resources.css";
+import "../assets/CSS/Resources.css";
 
 import batteryRepurposersImg from "../assets/images/battery_repurposers.jpg";
 import issuerImg from "../assets/images/issuer-removebg-preview (1).png";

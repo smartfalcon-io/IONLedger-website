@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import "./About.css";
+import "../assets/CSS/About.css";
 
 const About: React.FC = () => {
   const teamTextRef = useRef<HTMLDivElement>(null);

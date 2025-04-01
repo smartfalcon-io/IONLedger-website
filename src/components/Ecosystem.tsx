@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import "./Ecosystem.css";
+import "../assets/CSS/Ecosystem.css";
 import indyImage from "../assets/images/indy.png";
 import fabricImage from "../assets/images/fabric.png";
 import ipfsImage from "../assets/images/ipfs.jpg";

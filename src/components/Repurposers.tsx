@@ -1,5 +1,5 @@
 import React from "react";
-import "./Repurposers.css";
+import "../assets/CSS/Repurposers.css";
 import { useEffect, useRef } from "react";
 
 import homePageImage from "../assets/images/home.png";

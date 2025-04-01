@@ -18,7 +18,7 @@
     width: 100%;
     height: 460px;
     margin-top: 74px;
-    background-image: url("../assets/images/ecosystem1.jpeg");
+    background-image: url("../images/ecosystem1.jpeg");
     background-repeat: no-repeat;
     background-position: right;
     z-index: 2;
@@ -32,7 +32,7 @@
     width: 100%;
     height: 460px;
     margin-top: 74px;
-    background-image: url("../assets/images/vector8.avif");
+    background-image: url("../images/vector8.avif");
     opacity: 0.5;
     z-index: 1;
   }
@@ -102,7 +102,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("../assets/images/Premium Vector _ Pattern geometric line circle abstract seamless blue line (Copy).jpeg");
+    background-image: url("../images/Premium Vector _ Pattern geometric line circle abstract seamless blue line (Copy).jpeg");
     opacity: 0.1;
 }
 
@@ -387,7 +387,7 @@
         left: 0;
         width: 100%;
         margin-top: 74px;
-        background-image: url("../assets/images/ecosystem1.jpeg");
+        background-image: url("../images/ecosystem1.jpeg");
         background-repeat: no-repeat;
         background-position: center;
         z-index: 2;

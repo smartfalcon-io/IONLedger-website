@@ -1,6 +1,6 @@
 // src/components/CellChemistryProviders.tsx
 import React from "react";
-import "./CellChemistryProviders.css"; // Import CSS file
+import "../assets/CSS/CellChemistryProviders.css"; // Import CSS file
 
 const CellChemistryProviders: React.FC = () => {
   return (

@@ -1,6 +1,6 @@
-/* src/components/BatteryManufacturers.css */
+/* src/components/CellChemistryProviders.css */
 
-.battery-manufacturers {
+.cell-chemistry {
   padding-top: 30px;
   display: flex;
   flex-direction: column;
@@ -13,14 +13,14 @@
 }
 
 /* Background Image */
-.battery-manufacturers::before {
+.cell-chemistry::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../assets/images/battery_manufacturers.avif");
+  background-image: url("../images/cell_chemistry.jpg");
   background-position: center;
   background-size: cover;
   opacity: 0.2;
@@ -28,7 +28,7 @@
 }
 
 /* Headings */
-.battery-manufacturers h1 {
+.cell-chemistry h1 {
   color: #007bff;
   font-size: 3rem;
   font-family: 'Roboto Slab', serif;
@@ -38,7 +38,7 @@
 }
 
 /* Content */
-.manufacturers-content {
+.cell-chemistry-providers {
   font-family: Arial, sans-serif;
   margin: 20px auto;
   width: 55%;
@@ -49,7 +49,7 @@
 }
 
 /* Subheadings */
-.battery-manufacturers h2 {
+.cell-chemistry-providers h2 {
   color: black;
   font-family: 'Roboto Slab', serif;
   text-align: left;
@@ -57,18 +57,23 @@
 }
 
 /* Sections */
-.battery-manufacturers section {
+.cell-chemistry-providers section {
   margin-bottom: 30px;
 }
 
-/* Paragraph Styling */
-.battery-manufacturers p {
-  line-height: 1.6;
-  color: #333;
+/* Lists */
+.cell-chemistry-providers ul {
+  padding-left: 20px;
+}
+
+/* Quotes */
+.cell-chemistry-providers .quote {
+  font-style: italic;
+  color: #666;
 }
 
 /* Bold Text */
-.battery-manufacturers strong {
+.cell-chemistry-providers strong {
   font-weight: bold;
 }
 
@@ -76,43 +81,43 @@
 
 /* Tablets */
 @media (max-width: 1024px) {
-  .battery-manufacturers h1 {
+  .cell-chemistry h1 {
       font-size: 2.5rem;
       width: 80%;
   }
 
-  .manufacturers-content {
+  .cell-chemistry-providers {
       width: 70%;
       font-size: 1.1rem;
   }
 
-  .battery-manufacturers h2 {
+  .cell-chemistry-providers h2 {
       font-size: 1.75rem;
   }
 }
 
 /* Mobile Devices */
 @media (max-width: 768px) {
-  .battery-manufacturers {
+  .cell-chemistry {
       padding-top: 20px;
   }
 
-  .battery-manufacturers h1 {
+  .cell-chemistry h1 {
       font-size: 2rem;
       width: 90%;
   }
 
-  .manufacturers-content {
+  .cell-chemistry-providers {
       width: 85%;
       font-size: 1rem;
   }
 
-  .battery-manufacturers h2 {
+  .cell-chemistry-providers h2 {
       font-size: 1.5rem;
       text-align: center;
   }
 
-  .battery-manufacturers::before {
+  .cell-chemistry::before {
       background-size: contain;
       opacity: 0.15;
   }
@@ -120,16 +125,16 @@
 
 /* Small Mobile Devices */
 @media (max-width: 480px) {
-  .battery-manufacturers h1 {
+  .cell-chemistry h1 {
       font-size: 1.8rem;
   }
 
-  .manufacturers-content {
+  .cell-chemistry-providers {
       width: 90%;
       font-size: 0.95rem;
   }
 
-  .battery-manufacturers h2 {
+  .cell-chemistry-providers h2 {
       font-size: 1.4rem;
   }
 }

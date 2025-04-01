@@ -1,6 +1,6 @@
-/* src/components/BatteryRepurposers.css */
+/* src/components/BatteryRecyclers.css */
 
-.battery-repurposers {
+.battery-recyclers {
   padding-top: 30px;
   display: flex;
   flex-direction: column;
@@ -13,14 +13,14 @@
 }
 
 /* Background Image */
-.battery-repurposers::before {
+.battery-recyclers::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../assets/images/battery_repurposers.jpg");
+  background-image: url("../images/ecofriendly.jpg");
   background-position: center;
   background-size: cover;
   opacity: 0.2;
@@ -28,7 +28,7 @@
 }
 
 /* Headings */
-.battery-repurposers h1 {
+.battery-recyclers h1 {
   color: #007bff;
   font-size: 3rem;
   font-family: 'Roboto Slab', serif;
@@ -38,7 +38,7 @@
 }
 
 /* Content */
-.repurposers-content {
+.recyclers-content {
   font-family: Arial, sans-serif;
   margin: 20px auto;
   width: 55%;
@@ -49,7 +49,7 @@
 }
 
 /* Subheadings */
-.battery-repurposers h2 {
+.battery-recyclers h2 {
   color: black;
   font-family: 'Roboto Slab', serif;
   text-align: left;
@@ -57,28 +57,28 @@
 }
 
 /* Sections */
-.battery-repurposers section {
+.battery-recyclers section {
   margin-bottom: 30px;
 }
 
 /* Paragraph Styling */
-.battery-repurposers p {
+.battery-recyclers p {
   line-height: 1.6;
   color: #333;
 }
 
 /* Bold Text */
-.battery-repurposers strong {
+.battery-recyclers strong {
   font-weight: bold;
 }
 
 /* List Styling */
-.battery-repurposers ul {
+.battery-recyclers ul {
   list-style-type: disc;
   padding-left: 20px;
 }
 
-.battery-repurposers li {
+.battery-recyclers li {
   margin-bottom: 10px;
 }
 
@@ -86,43 +86,43 @@
 
 /* Tablets */
 @media (max-width: 1024px) {
-  .battery-repurposers h1 {
+  .battery-recyclers h1 {
       font-size: 2.5rem;
       width: 80%;
   }
 
-  .repurposers-content {
+  .recyclers-content {
       width: 70%;
       font-size: 1.1rem;
   }
 
-  .battery-repurposers h2 {
+  .battery-recyclers h2 {
       font-size: 1.75rem;
   }
 }
 
 /* Mobile Devices */
 @media (max-width: 768px) {
-  .battery-repurposers {
+  .battery-recyclers {
       padding-top: 20px;
   }
 
-  .battery-repurposers h1 {
+  .battery-recyclers h1 {
       font-size: 2rem;
       width: 90%;
   }
 
-  .repurposers-content {
+  .recyclers-content {
       width: 85%;
       font-size: 1rem;
   }
 
-  .battery-repurposers h2 {
+  .battery-recyclers h2 {
       font-size: 1.5rem;
       text-align: center;
   }
 
-  .battery-repurposers::before {
+  .battery-recyclers::before {
       background-size: contain;
       opacity: 0.15;
   }
@@ -130,16 +130,16 @@
 
 /* Small Mobile Devices */
 @media (max-width: 480px) {
-  .battery-repurposers h1 {
+  .battery-recyclers h1 {
       font-size: 1.8rem;
   }
 
-  .repurposers-content {
+  .recyclers-content {
       width: 90%;
       font-size: 0.95rem;
   }
 
-  .battery-repurposers h2 {
+  .battery-recyclers h2 {
       font-size: 1.4rem;
   }
 }

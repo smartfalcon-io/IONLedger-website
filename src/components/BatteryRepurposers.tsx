@@ -1,6 +1,6 @@
 // src/components/BatteryRepurposers.tsx
 import React from "react";
-import "./BatteryRepurposers.css"; // Import CSS file
+import "../assets/CSS/BatteryRepurposers.css"; // Import CSS file
 
 const BatteryRepurposers: React.FC = () => {
   return (

@@ -7,7 +7,7 @@ import {
   FaLightbulb,
   FaDollarSign,
 } from "react-icons/fa";
-import "./Home.css";
+import "../assets/CSS/Home.css";
 
 import solutionImage from "../assets/images/battery-passport.jpg";
 import cellChemistryProvidersImg from "../assets/images/cell_chemistry.jpg";

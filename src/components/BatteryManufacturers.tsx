@@ -1,6 +1,6 @@
 // src/components/BatteryManufacturers.tsx
 import React from "react";
-import "./BatteryManufacturers.css"; // Import CSS file
+import "../assets/CSS/BatteryManufacturers.css"; // Import CSS file
 
 const BatteryManufacturers: React.FC = () => {
   return (

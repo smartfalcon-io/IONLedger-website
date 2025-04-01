@@ -1,7 +1,7 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
 import { useNavigate } from "react-router-dom";
-import "./Stakeholders.css";
+import "../assets/CSS/Stakeholders.css";
 
 import cellChemistryProvidersImg from "../assets/images/cell_chemistry.jpg";
 import batteryManufacturersImg from "../assets/images/battery_manufacturers.avif";

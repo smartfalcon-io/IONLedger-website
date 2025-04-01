@@ -1,6 +1,6 @@
 // src/components/AutomobileOEMs.tsx
 import React from "react";
-import "./AutomobileOems.css"; // Import CSS file
+import "../assets/CSS/AutomobileOems.css"; // Import CSS file
 
 const AutomobileOEMs: React.FC = () => {
   return (

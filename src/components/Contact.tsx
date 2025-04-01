@@ -81,7 +81,7 @@
 // export default Contact;
 
 import React, { useEffect, useState } from "react";
-import "./Contact.css";
+import "../assets/CSS/Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLocationDot,
