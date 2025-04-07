@@ -53,7 +53,6 @@
 .holder-container {
     display: flex;
     flex-direction: column;
-    width: 100%;
     background-color: #f8f9fa;
     padding: 20px;
 }
@@ -103,21 +102,9 @@
     border-radius: 10px;
     opacity: 1;
     transform: none;
-    /* transition: opacity 1s ease-in-out, transform 1s ease-in-out; */
 }
 
-/* .resources-content:nth-child(odd) .resources-image {
-    transform: translateX(-50px);
-} */
 
-/* .resources-content:nth-child(even) .resources-image {
-    transform: translateX(50px);
-} */
-
-/* .resources-content.show .resources-image {
-    opacity: 1;
-    transform: translateX(0);
-} */
 
 .holder-text {
     flex: 1;
@@ -129,7 +116,6 @@
 
 .holder-content.show .holder-text {
     opacity: 1;
-    /* transform: translateY(0);  */
 }
 
 .holder-text h1 {
@@ -159,4 +145,92 @@
 
 .holder-content:nth-child(odd) .holder-text {
     color: black;
+}
+
+
+
+
+/* RESPONSIVE MEDIA QUERIES */
+@media (max-width: 1024px) {
+    .holder-banner h1 {
+        font-size: 2.5rem;
+    }
+
+    .holder-inner {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .holder-image,
+    .holder-text {
+        max-width: 100%;
+    }
+
+    .holder-image {
+        margin-bottom: 20px;
+    }
+
+    .holder-banner {
+        padding: 120px 20px;
+    }
+
+    .holder-banner::before,
+    .holder-banner::after {
+        height: 360px;
+    }
+}
+
+@media (max-width: 768px) {
+    .holder-banner h1 {
+        font-size: 2rem;
+    }
+
+    .holder-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .holder-text p {
+        font-size: 16px;
+    }
+
+    .holder-content {
+        padding: 30px 0;
+    }
+
+    .holder-banner {
+        padding: 100px 15px;
+    }
+
+    .holder-banner::before,
+    .holder-banner::after {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .holder-banner h1 {
+        font-size: 1.8rem;
+    }
+
+    .holder-text h1 {
+        font-size: 1.2rem;
+    }
+
+    .holder-text p {
+        font-size: 14px;
+    }
+
+    .holder-container {
+        padding: 10px;
+    }
+
+    .holder-banner {
+        padding: 80px 10px;
+    }
+
+    .holder-banner::before,
+    .holder-banner::after {
+        height: 250px;
+    }
 }

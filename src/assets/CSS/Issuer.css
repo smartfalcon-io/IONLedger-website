@@ -53,7 +53,6 @@
 .issuer-container {
     display: flex;
     flex-direction: column;
-    width: 100%;
     background-color: #f8f9fa;
     padding: 20px;
 }
@@ -103,21 +102,9 @@
     border-radius: 10px;
     opacity: 1;
     transform: none;
-    /* transition: opacity 1s ease-in-out, transform 1s ease-in-out; */
 }
 
-/* .issuer-content:nth-child(odd) .issuer-image {
-    transform: translateX(-50px);
-} */
 
-/* .issuer-content:nth-child(even) .issuer-image {
-    transform: translateX(50px);
-} */
-
-/* .issuer-content.show .issuer-image {
-    opacity: 1;
-    transform: translateX(0);
-} */
 
 .issuer-text {
     flex: 1;
@@ -129,7 +116,6 @@
 
 .issuer-content.show .issuer-text {
     opacity: 1;
-    /* transform: translateY(0);  */
 }
 
 .issuer-text h1 {
@@ -159,4 +145,91 @@
 
 .issuer-content:nth-child(odd) .issuer-text {
     color: black;
+} 
+ 
+
+
+/* RESPONSIVE STYLES */
+@media (max-width: 1024px) {
+    .issuer-banner h1 {
+        font-size: 2.5rem;
+    }
+
+    .issuer-inner {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .issuer-image,
+    .issuer-text {
+        max-width: 100%;
+    }
+
+    .issuer-image {
+        margin-bottom: 20px;
+    }
+
+    .issuer-banner {
+        padding: 120px 20px;
+    }
+
+    .issuer-banner::before,
+    .issuer-banner::after {
+        height: 360px;
+    }
+}
+
+@media (max-width: 768px) {
+    .issuer-banner h1 {
+        font-size: 2rem;
+    }
+
+    .issuer-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .issuer-text p {
+        font-size: 16px;
+    }
+
+    .issuer-content {
+        padding: 30px 0;
+    }
+
+    .issuer-banner {
+        padding: 100px 15px;
+    }
+
+    .issuer-banner::before,
+    .issuer-banner::after {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .issuer-banner h1 {
+        font-size: 1.8rem;
+    }
+
+    .issuer-text h1 {
+        font-size: 1.2rem;
+    }
+
+    .issuer-text p {
+        font-size: 14px;
+    }
+
+    .issuer-container {
+        padding: 10px;
+    }
+
+    .issuer-banner {
+        padding: 80px 10px;
+    }
+
+    .issuer-banner::before,
+    .issuer-banner::after {
+        height: 250px;
+    }
 }
