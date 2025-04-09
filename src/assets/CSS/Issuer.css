@@ -54,7 +54,7 @@
     display: flex;
     flex-direction: column;
     background-color: #f8f9fa;
-    padding: 20px;
+    padding: 100px;
 }
 
 .issuer-content {
@@ -181,6 +181,9 @@
 }
 
 @media (max-width: 768px) {
+    .issuer-container{
+        margin-top: 80px;
+    }
     .issuer-banner h1 {
         font-size: 2rem;
     }
@@ -199,6 +202,10 @@
 
     .issuer-banner {
         padding: 100px 15px;
+    }
+
+    .issuer-inner{
+        flex-direction: column !important;
     }
 
     .issuer-banner::before,

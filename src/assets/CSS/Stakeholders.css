@@ -95,6 +95,7 @@
 .grid-item {
     display: flex;
     justify-content: center;
+    
 }
 
 /* .stakeholder-card.card {
@@ -112,9 +113,9 @@
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 400px;
+    width: 350px;
     height: 390px;
-    padding: 20px;
+    padding: 25px;
     cursor: pointer;
     opacity: 0; /* Start hidden for animation */
     animation: fadeInUp 0.6s ease-out forwards;
@@ -139,11 +140,12 @@
 } */
 
 .stakeholder-card.card img {
-    width: 100%;
+    width: 90%;
     height: 270px;
     object-fit: cover;
     border-radius: 10px;
     transition: transform 0.3s ease;
+    margin-left: 15px;
 }
 
 .stakeholder-card.card:hover img {
