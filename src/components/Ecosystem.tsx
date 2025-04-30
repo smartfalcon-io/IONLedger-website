@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "../assets/CSS/Ecosystem.css";
-import indyImage from "../assets/images/indy.png";
-import fabricImage from "../assets/images/fabric.png";
+import indyImage from "../assets/images/Hyperledger_Indy.png";
+import fabricImage from "../assets/images/Hyperledger_Fabric.png";
 import ipfsImage from "../assets/images/ipfs.jpg";
 import complianceImage from "../assets/images/compliance.jpeg";
 // import ecosystemBanner from "../assets/images/ecosystem_banner.jpg";
