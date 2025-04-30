@@ -39,7 +39,7 @@ const ScrollToTop = () => {
 
 const App: React.FC = () => {
   return (
-    <Router basename="/IONLedger-website">
+    <Router>
         <Header />
         <ScrollToTop /> {/* Add ScrollToTop component */}
         <Routes>
