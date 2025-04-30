@@ -5,7 +5,7 @@ import fabricImage from "../assets/images/Hyperledger_Fabric.png";
 import ipfsImage from "../assets/images/ipfs.jpg";
 import complianceImage from "../assets/images/compliance.jpeg";
 // import ecosystemBanner from "../assets/images/ecosystem_banner.jpg";
-import ecosystemInfoImage from "../assets/images/Untitled(2).png";
+import ecosystemInfoImage from "../assets/images/ecosystem-overview.png";
 import ecosystemInfoImage2 from "../assets/images/Untitled (1).png";
 
 const sections = [
