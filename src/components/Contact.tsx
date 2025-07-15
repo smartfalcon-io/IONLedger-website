@@ -1,84 +1,4 @@
-// import React from "react";
-// import "./Contact.css";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {
-//   faLocationDot,
-//   faPhone,
-//   faEnvelope,
-// } from "@fortawesome/free-solid-svg-icons";
 
-// const Contact: React.FC = () => {
-//   return (
-//     <section className="contact">
-//       <div className="contact-banner">
-//         {/* <h1>Contact Us</h1> */}
-//       </div>
-//       <div className="contact-content">
-//         <div className="contact-form">
-//           <h2>Get in Touch</h2>
-//           <form>
-//             <div className="form-group">
-//               <label htmlFor="email">Email</label>
-//               <input type="email" id="email" name="email" required />
-//             </div>
-//             <div className="form-group">
-//               <label htmlFor="firstName">First Name</label>
-//               <input type="text" id="firstName" name="firstName" required />
-//             </div>
-//             <div className="form-group">
-//               <label htmlFor="lastName">Last Name</label>
-//               <input type="text" id="lastName" name="lastName" required />
-//             </div>
-//             <div className="form-group">
-//               <label htmlFor="phone">Phone Number</label>
-//               <div className="phone-input">
-//                 <select id="countryCode" name="countryCode">
-//                   <option value="+91">India (+91)</option>
-//                   {/* Add more country codes as needed */}
-//                 </select>
-//                 <input type="tel" id="phone" name="phone" required />
-//               </div>
-//             </div>
-//             <div className="form-group">
-//               <label htmlFor="message">Message</label>
-//               <textarea id="message" name="message" rows={4} required />
-//             </div>
-//             <button type="submit">Submit</button>
-//           </form>
-//         </div>
-//         <div className="contact-info">
-//           <h2>Reach Out to Us</h2>
-//           <div className="info">
-//             <p>
-//               <FontAwesomeIcon icon={faLocationDot} className="icon" />{" "}
-//               <b>SmartFalcon LLP</b>
-//               <br />
-//               <p>
-//                 T-hub Phase 2, Plot No 1/C, Sy No 83/1, Raidurgam panmaktha,
-//                 Hyderabad Knowledge City, Serilingampally, Hyderabad, Telangana-
-//                 500081.
-//               </p>
-//             </p>
-//             <p>
-//               <FontAwesomeIcon icon={faPhone} className="icon" />{" "}
-//               <b>+91 9866227022</b>
-//               <br />
-//               Mon to Fri 1am to 5pm
-//             </p>
-//             <p>
-//               <FontAwesomeIcon icon={faEnvelope} className="icon" />{" "}
-//               <a href="mailto:contact@smartfalcon.io">contact@smartfalcon.io</a>
-//               <br />
-//               Send us your query anytime!
-//             </p>
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Contact;
 
 import React, { useEffect, useState } from "react";
 import "../assets/CSS/Contact.css";
@@ -152,8 +72,8 @@ const Contact: React.FC = () => {
               <b>IonLedger</b>
               <br />
               T-hub Phase 2, Plot No 1/C, Sy No 83/1, Raidurgam Panmaktha,
-              Hyderabad Knowledge City, Serilingampally, Hyderabad, Telangana-
-              500081.
+              Knowledge City, Serilingampally, <br/>
+              Hyderabad, Telangana- 500081.
             </p>
             <p>
               <FontAwesomeIcon icon={faPhone} className="icon" />{" "}
@@ -163,7 +83,7 @@ const Contact: React.FC = () => {
             </p>
             <p>
               <FontAwesomeIcon icon={faEnvelope} className="icon" />{" "}
-              <a href="mailto:contact@ionledger.io">contact@ionledger.io</a>
+              <a href="mailto:contact@ionledger.io">contact@ionledger.in</a>
               <br />
               Send us your query anytime!
             </p>
