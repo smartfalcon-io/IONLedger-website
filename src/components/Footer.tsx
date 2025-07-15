@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
         </div>
         <div className="footer-right">
           <p>+91 98662 27022</p>
-          <p>contact@ionledger.io</p>
+          <p>contact@ionledger.co.in</p>
         </div>
       </div>
 
