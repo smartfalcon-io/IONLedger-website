@@ -83,7 +83,7 @@ const Contact: React.FC = () => {
             </p>
             <p>
               <FontAwesomeIcon icon={faEnvelope} className="icon" />{" "}
-              <a href="mailto:contact@ionledger.io">contact@ionledger.in</a>
+              <a href="mailto:contact@ionledger.io">contact@ionledger.co.in</a>
               <br />
               Send us your query anytime!
             </p>

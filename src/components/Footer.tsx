@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
           <p>
             IonLedger, 4th Floor,
             <br /> T-Hub Phase 2, Plot No 1/C, Sy No 83/1, <br />
-            Raidurgam Panmaktha, Hyderabad <br /> Knowledge City,
+            Raidurgam Panmaktha, <br /> Knowledge City,
             Serilingampally, <br />
             Hyderabad, Telangana - 500 081.
           </p>
