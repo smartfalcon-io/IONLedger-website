@@ -14,7 +14,7 @@
 
 .about-banner::before {
   content: "";
-  position: absolute;
+  position: absolute; 
   top: 0;
   left: 0;
   width: 100%;
@@ -422,6 +422,9 @@ section h2 {
     
   }
   
+  .about-banner h1 {
+    text-align: center;
+  }
 
   .about-banner::before {
     height: 70%;
