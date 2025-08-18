@@ -480,7 +480,8 @@ section h2 {
   }
 
   .origin-text h2{
-    text-align: left;
+    text-align: center;
+    width: 100%;
   }
   .origin-text p{
     line-height: 1.5;
