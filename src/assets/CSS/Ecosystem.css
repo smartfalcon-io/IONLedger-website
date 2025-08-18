@@ -90,6 +90,7 @@
 
 .ecosystem-content.reverse .ecosystem-inner {
     flex-direction: row-reverse;
+    margin-left: -40px;
 }
 
 .ecosystem-content:nth-child(odd) {
